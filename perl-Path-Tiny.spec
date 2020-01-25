@@ -4,7 +4,6 @@
 #
 %define		pdir	Path
 %define		pnam	Tiny
-%include	/usr/lib/rpm/macros.perl
 Summary:	Path::Tiny - File path utility
 Summary(pl.UTF-8):	Path::Tiny - narzędzia do ścieżek plików
 Name:		perl-Path-Tiny
