@@ -1,19 +1,19 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Path
 %define		pnam	Tiny
 Summary:	Path::Tiny - File path utility
 Summary(pl.UTF-8):	Path::Tiny - narzędzia do ścieżek plików
 Name:		perl-Path-Tiny
-Version:	0.122
+Version:	0.146
 Release:	1
 License:	Apache v2.0
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/D/DA/DAGOLDEN/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f746d8da5d049a5523b1880666bb0992
-URL:		https://metacpan.org/release/Path-Tiny
+Source0:	https://www.cpan.org/modules/by-authors/id/D/DA/DAGOLDEN/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	656d3556bb7f30c77d0881d564e200b2
+URL:		https://metacpan.org/dist/Path-Tiny
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.17
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
