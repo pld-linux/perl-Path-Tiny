@@ -7,12 +7,12 @@
 Summary:	Path::Tiny - File path utility
 Summary(pl.UTF-8):	Path::Tiny - narzędzia do ścieżek plików
 Name:		perl-Path-Tiny
-Version:	0.146
+Version:	0.150
 Release:	1
 License:	Apache v2.0
 Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/modules/by-authors/id/D/DA/DAGOLDEN/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	656d3556bb7f30c77d0881d564e200b2
+# Source0-md5:	7126ad3d5c14a32a5f4bde0054f57449
 URL:		https://metacpan.org/dist/Path-Tiny
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.17
 BuildRequires:	perl-devel >= 1:5.8.1
